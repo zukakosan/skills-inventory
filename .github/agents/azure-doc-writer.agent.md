@@ -1,7 +1,7 @@
 ---
 description: 'Azure の技術トピックについて、azure-research（収集）と azure-factcheck（検証）を順に呼び、検証済み・出典付きの内容をマークダウンのドキュメントファイルとして生成するエージェント。「Azure の〜をドキュメント化して」「〜の技術メモを md で作って」「調査結果を資料にまとめて」など、Q&A ではなく成果物（.md ファイル）が欲しいときに選ぶ。'
 name: 'azure-doc-writer'
-tools: ['agent', 'edit', 'read']
+tools: [read, agent, edit, 'microsoft.docs.mcp/*', 'mrc-mcp-server/*']
 agents: ['azure-research', 'azure-factcheck']
 argument-hint: 'ドキュメント化したい Azure のトピック（例: Functions のプラン別タイムアウト比較 / AKS のアップグレード戦略）'
 ---

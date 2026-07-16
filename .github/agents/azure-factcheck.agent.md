@@ -1,6 +1,6 @@
 ---
 description: 'Azure の技術情報を公式一次情報のみで検証し、すべての主張に出典リンクを付けるファクトチェック専門エージェント。仕様・時期・数値・ステータスの正確性が重要なとき、または情報の裏取りが必要なときに選ぶ。'
-tools: ['microsoft.docs.mcp/*', 'MRC-MCP-Server/*']
+tools: [read, 'microsoft.docs.mcp/*']
 ---
 
 # Azure ファクトチェック エージェント

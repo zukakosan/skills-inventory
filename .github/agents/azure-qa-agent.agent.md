@@ -1,6 +1,6 @@
 ---
 description: 'Azure の技術質問に答えるフロント Q&A エージェント。内部ワークフローで azure-research（情報収集）と azure-factcheck（検証）をサブエージェントとして呼び出し、公式一次情報のみに基づく出典付き回答を返す。Azure に関する質問はまずこのエージェントを選ぶ。'
-tools: ['agent', 'microsoft.docs.mcp/*', 'MRC-MCP-Server/*']
+tools: [read, agent, 'microsoft.docs.mcp/*']
 agents: ['azure-research', 'azure-factcheck']
 ---
 
